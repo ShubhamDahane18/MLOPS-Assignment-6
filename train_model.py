@@ -2,6 +2,7 @@
 import pickle
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
+import numpy as np
 
 # Load dataset
 X, y = load_iris(return_X_y=True)
